@@ -200,7 +200,7 @@ class _ContactListState extends State<ContactList> {
         ),
 
       bottomNavigationBar: BottomNavigationBar(
-        items: const [
+        items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.contacts,color: Color.fromARGB(255, 26, 145, 235), size: 25),
             label: 'Home',
@@ -214,7 +214,7 @@ class _ContactListState extends State<ContactList> {
             label: 'Settings',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings,color: Colors.grey, size: 25),
+            icon: CircleAvatar(child: Image.asset("asset/Dhanush.jpg")),
             label: 'Settings',
           ),
         ],

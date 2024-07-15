@@ -231,7 +231,7 @@ class _SettingsPageState extends State<SettingsPage> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const [
+        items:  [
           BottomNavigationBarItem(
             icon: Icon(Icons.contacts, color: Color.fromARGB(255, 23, 81, 218), size: 20),
             label: 'Home',
@@ -245,7 +245,8 @@ class _SettingsPageState extends State<SettingsPage> {
             label: 'Settings',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings, color: Colors.grey, size: 20),
+            icon: 
+            CircleAvatar(child: Image.asset("asset/Dhanush.jpg")),
             label: 'Settings',
           ),
         ],

@@ -284,7 +284,7 @@ class _ChatsListState extends State<ChatsList> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const [
+        items:[
           BottomNavigationBarItem(
             icon: Icon(Icons.contacts, color: Color.fromARGB(255, 37, 122, 219), size: 25),
             label: 'Home',
@@ -298,7 +298,7 @@ class _ChatsListState extends State<ChatsList> {
             label: 'Settings',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings, color: Colors.grey, size: 25),
+            icon: CircleAvatar(child: Image.asset("asset/Dhanush.jpg")),
             label: 'Settings',
           ),
         ],
